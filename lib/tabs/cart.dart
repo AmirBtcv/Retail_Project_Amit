@@ -114,7 +114,7 @@ class _CartState extends State<Cart> {
                         Expanded(
                             flex: 2,
                             child: Text(
-                              'Price : ${cartResponse.products[index].product.priceFinalText} ',
+                              'Price : ${cartResponse.products[index].product.priceFinalText}',
                               style: TextStyle(fontSize: 15),
                             )),
                         Expanded(
